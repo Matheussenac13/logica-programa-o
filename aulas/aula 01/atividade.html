@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 1 </title>
+
+</head>
+<body>
+    <h1>Calculadora de Media </h1>
+    <h2>Informe a Média</h2>
+
+    <input id="caixa" type="text" placeholder="Digite um número!">
+    <input id="caixa1" type="text" placeholder="Digite um número!">
+    <input id="caixa2" type="text" placeholder="Digite um número!">
+    <input id="caixa3" type="text" placeholder="Digite um número!">
+    <button onclick="cliclar()">Media</button>
+
+    <script>
+        function cliclar() {
+            var n1 = document.getElementById('caixa').value;
+            var n2 = document.getElementById('caixa1').value;
+            var n3 = document.getElementById('caixa2').value;
+            var n4 = document.getElementById('caixa3').value;
+            var soma = n1 + n2 + n3 + n4
+            alert(soma)
+        }
+    </script>
+    
+</body>
+</html>
