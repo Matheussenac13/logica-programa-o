@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 1 </title>
+
+</head>
+<body>
+    <h1>Calculadora de Media </h1>
+    <h2>Informe a Média</h2>
+
+    <input id="caixa" type="number" placeholder="Digite um número!">
+    <input id="caixa1" type="number" placeholder="Digite um número!">
+    <input id="caixa2" type="number" placeholder="Digite um número!">
+    <input id="caixa3" type="number" placeholder="Digite um número!">
+    <button onclick="cliclar()">Media</button>
+
+    <script>
+        function cliclar() {
+            const unidades = 4;
+
+            var n1 = parseFloat(document.getElementById('caixa').value);
+            var n2 = parseFloat(document.getElementById('caixa1').value);
+            var n3 = parseFloat(document.getElementById('caixa2').value);
+            var n4 = parseFloat(document.getElementById('caixa3').value);
+
+            var soma = n1 + n2 + n3 + n4;
+            var media = soma / unidades;
+
+            if(media >= 7) 
+            alert("Média: " + media + "APROVAO");
+        else
+            alert("Média: " + media + "REPROVADO");
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    background-color: #8d8888;
+    font: 13pt Arial;
+}
+
+main {
+    background-image: radial-gradient(circle, #1100ff 0%, #000000 150%);
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.titulo-2{
+    color: rgb(255, 253, 248);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+aside {
+    display: block; 
+    font-size: 10pt;
+    text-align: justify;
+    background-color: #000000b1;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+aside img {
+    width: 60px; 
+    display: block; 
+    float: left;
+    margin-right: 10px;
+}
+
+a, a:visited {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: rgb(11, 184, 37);
+    text-decoration: none;
+}
+
+
