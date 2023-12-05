@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz </title>
+
+    <style>
+
+        body{
+            background: rgb(196, 194, 194);
+        }
+
+        h1{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .caixaquets{
+            background-color: red;
+            padding: 15px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Desafio de conhecimentos gerais</h1>
+
+    <form action="">
+
+        <div class="caixaquets">
+            <h3>Pergunta 1: Qual é a capital do brazil</h3>
+            <input id="res1" type="text" placeholder="Sua resposta" required>
+        </div>
+
+        <div class="caixaquets">
+            <h3>Pergunta 2: Qual é o maior Oceano do Mundo?</h3>
+            <input id="res2" type="text" placeholder="Sua resposta" required>
+        </div>
+
+        <div class="caixaquets">
+            <h3>Pergunta 3: Quem escreveu 'Romeu e Julieta'?</h3>
+            <input id="res3" type="text" placeholder="Sua resposta" required>
+        </div>
+
+        <div class="caixaquets">
+            <h3>Pergunta 4: Qual é o símbolo químico do ouro</h3>
+            <input id="res4" type="text" placeholder="Sua resposta" required>
+        </div>
+
+        <div class="caixaquets">
+            <h3>Pergunta 5: Em que ano ocorreu a independicia do Brazil</h3>
+            <input id="res5" type="number" placeholder="Sua resposta" required>
+        </div>
+
+    </form>
+
+    <div id="resul"></div>
+    <br>
+
+    <button type="button" onclick="verresposta()">Verificar Respostas</button>
+
+    <script>
+
+        function verresposta() {
+            let pontuacao = 0;
+
+            let n1 = document.getElementById("res1").value.toLowerCase();
+            let n2 = document.getElementById("res2").value.toLowerCase();
+            let n3 = document.getElementById("res3").value.toLowerCase();
+            let n4 = document.getElementById("res4").value.toLowerCase();
+            let n5 = document.getElementById("res5").value;
+            
+            if (n1 == "Brasília") {
+                pontuacao ++;
+            }
+
+            if (n2 == "Pacífico") {
+                pontuacao ++;
+            }
+
+            if (n3 == "William" || "william sheakespare" || "Sheakespare") {
+                pontuacao ++;
+            }
+
+            if (n4 == "AU") {
+                pontuacao++;
+            }
+
+            if(n5 == "1822") {
+                pontuacao++;
+            }
+
+            console.log(pontuacao);
+
+            let resultadodiv = document.getElementById("resul");
+            resultadodiv.innerHTML
+   
+        }
+
+    </script>
+
+</body>
+</html>

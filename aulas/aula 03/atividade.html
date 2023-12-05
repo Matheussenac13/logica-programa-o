@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Atividade 1 </title>
 
 </head>
+
 <body>
     <h1>Calculadora de Media </h1>
     <h2>Informe a Média</h2>
@@ -28,12 +30,15 @@
             var soma = n1 + n2 + n3 + n4;
             var media = soma / unidades;
 
-            if(media >= 7) 
-            alert("Média: " + media + "APROVAO");
-        else
-            alert("Média: " + media + "REPROVADO");
+            if (media >= 7)
+                alert("Média: " + media + "<font Color=green> APROVAO </font>");
+            else if(media >= 5)
+                alert("Média: " + media + "<font Color=yellow> RECUPERAÇÃO </font>")
+            else
+                alert("Média: " + media + " REPROVADO");
         }
     </script>
-    
+
 </body>
+
 </html>
