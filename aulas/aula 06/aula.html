@@ -61,13 +61,53 @@
 
         // return maior;
 
-        function epar(numero) {
-            return numero %  2 === 0;
-        }
-         
-        document.write(epar(10));
+    </script>
+
+
+    <script>
+        // function epar(numero) {
+        //     return numero % 2 === 0;
+        // }
+
+        // document.write(epar(10));
+    </script>
+
+
+    <script>
+        // function impares(listan) {
+        //     let impares = [];
+
+        //     for(let posicaoat = 0; posicaoat < listan.length; posicaoat++) {
+        //         if(ehPar(listan[posicaoat]));
+        //     }
+
+        //     return impares;
+        // }
+
+        // let numerosparaextrais = [1, 2, 3, 4, 5, 6, 7, 8];
+        // console.log(impares(numerosparaextrais));
 
     </script>
+
+    <script>
+        let numerosParaExtrair = [11, 23, 8, 10];
+        console.log(impares(numerosParaExtrair));
+
+        let textoParaTratamento = prompt("Iinsira o texto para limitar");
+        let resultado = limitaTexto(textoParaTratamento);
+        alert(resultado);
+
+        // Função que recebe um texto e retorna o texto dentro do limite de 10 caracteres
+        //function limitaTexto(texto) {            
+        // if(texto.length > 10)      
+        // texto =  texto.substring(0, 10);
+        
+        function limitaTexto(texto) {
+            return texto.length > 10 ? texto.substring(0, 10) : texto;
+        }
+
+    </script>
+
 
 </body>
 

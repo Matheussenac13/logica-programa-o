@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+}
+
+#listaDeCompras{
+    background-color: rgb(141, 142, 143);
+    width: 50%;
+    border-radius: 10px;
+}
+
+#itemInput{
+    border-radius: 10px;
+    background-color: rgb(167, 171, 174);
+    color: blue;
+}
+
+.btinput{
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+#totalItens{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
