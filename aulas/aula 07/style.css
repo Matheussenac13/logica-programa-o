@@ -3,15 +3,16 @@ body{
 }
 
 #listaDeCompras{
-    background-color: rgb(141, 142, 143);
-    width: 50%;
+    background-color: rgb(1, 234, 255);
+    width: 23%;
     border-radius: 10px;
 }
 
 #itemInput{
     border-radius: 10px;
-    background-color: rgb(167, 171, 174);
-    color: blue;
+    background-color: white;
+    padding: 5px;
+    color: black;
 }
 
 .btinput{
